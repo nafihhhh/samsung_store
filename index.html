@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <style>
+        .btn {
+            margin-top:  30px;
+        }
+        .btn1{
+            margin-top:  2%;
+        }
+        .navbar-brand{
+            font-weight: bold;
+        }
+        *{
+            margin: 0px;
+        }
+    </style>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand text-primary" href="#">SAMSUNG</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input class="form-control me-2 mt-5" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <!-- category  -->
+    <div class="bg-bla w-100 row gap-5 overflow-auto gap-2" style="height: 120px;margin-left: 5px; justify-content: center;margin-top: 5px;flex-wrap: nowrap  ;">
+        <div class="d-inline-block bg-warning rounded-2 col-2 col-md-1 flex-nowrap"style="height: 6%;width: 36%;"></div>
+        <div class="d-inline-block bg-warning rounded-2 col-2 col-md-1 flex-nowrap"style="height: 6%;width: 36%;"></div>
+        <div class="d-inline-block bg-warning rounded-2 col-2 col-md-1 flex-nowrap"style="height: 6%;width: 36%;"></div>
+        <div class="d-inline-block bg-warning rounded-2 col-2 col-md-1 flex-nowrap"style="height: 6%;width: 36%;"></div>
+        <div class="d-inline-block bg-warning rounded-2 col-2 col-md-1 flex-nowrap"style="height: 6%;width: 36%;"></div>
+        <div class="d-inline-block bg-warning rounded-2 col-2 col-md-1 flex-nowrap"style="height: 6%;width: 36%;"></div>
+        <div class="d-inline-block bg-warning rounded-2 col-2 col-md-1 flex-nowrap"style="height: 6%;width: 36%;"></div>
+        <div class="d-inline-block bg-warning rounded-2 col-2 col-md-1 flex-nowrap"style="height: 6%;width: 36%;"></div>
+        <div class="d-inline-block bg-warning rounded-2 col-2 col-md-1 flex-nowrap"style="height: 6%;width: 36%;"></div>
+        <div class="d-inline-block bg-warning rounded-2 col-2 col-md-1 flex-nowrap"style="height: 6%;width: 36%;"></div>
+    </div>
+    <!-- modal  -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- card  -->
+
+    <div style="height: 400px;" class="row gap-5 justify-content-center border-2">
+        <div class="card col-10 col-lg-4 border-2">
+            <img style="height: 250px; width: 240px; margin-left:19%;" src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTmFQ_AHYwjUqiTTUz30Tgc1hvb76eh1LzK02LDo4kXt1L6HHbZVbwGXlJ80Y5Umx799unXvQ1F6AlEbVoKGTDgZBxgqWuSFPXAlZ8JT0I9cbAlxNy4osxnsYAP0jMvg-5N-qAnqA&usqp=CAc"
+        class="card-img-top mt-lg-5" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">s25 ultra</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary w-100" data-bs-toggle="modal" data-bs-target="#exampleModal">79999/-</a>
+            </div>
+        </div>
+        <div style="height: 500px;width: 530px;" class=" card col-10 col-lg-4 border-2">
+            <img style="height: 73%;width: 85%; margin-top: 45px;margin-left: 30px;" src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSLl0MWutnqkN657j913PAvWPH7sO4KB0ia1GvOHe7VH5NGfV5HSvBuBEjLAJquYy7G5mdqGrbrd1sGZdNhNoUEGBDn33tLjOTEj85-FsI0hb7yNEOeATSNIsU"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">wcj</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                    the
+                    card's content.</p>
+                <a href="#" class="btn btn1 w-100 btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">79999/-</a>
+            </div>
+        </div>
+    <div class="row  gap-5 justify-content-center border-2">
+        <div class="card col-10 col-lg-2 border-2">
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTmFQ_AHYwjUqiTTUz30Tgc1hvb76eh1LzK02LDo4kXt1L6HHbZVbwGXlJ80Y5Umx799unXvQ1F6AlEbVoKGTDgZBxgqWuSFPXAlZ8JT0I9cbAlxNy4osxnsYAP0jMvg-5N-qAnqA&usqp=CAc"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">s25 ultra</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">79999/-</a>
+            </div>
+        </div>
+        <div class=" card col-10 col-lg-2 border-2">
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTmFQ_AHYwjUqiTTUz30Tgc1hvb76eh1LzK02LDo4kXt1L6HHbZVbwGXlJ80Y5Umx799unXvQ1F6AlEbVoKGTDgZBxgqWuSFPXAlZ8JT0I9cbAlxNy4osxnsYAP0jMvg-5N-qAnqA&usqp=CAc"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">s25 ultra </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                    the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">79999/-</a>
+            </div>
+        </div>
+        <div class="card col-10 col-lg-2 border-2">
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTmFQ_AHYwjUqiTTUz30Tgc1hvb76eh1LzK02LDo4kXt1L6HHbZVbwGXlJ80Y5Umx799unXvQ1F6AlEbVoKGTDgZBxgqWuSFPXAlZ8JT0I9cbAlxNy4osxnsYAP0jMvg-5N-qAnqA&usqp=CAc"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">s25 ultra </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">79999/-</a>
+            </div>
+        </div>
+        <div class="card col-10 col-lg-2 border-2">
+            <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTmFQ_AHYwjUqiTTUz30Tgc1hvb76eh1LzK02LDo4kXt1L6HHbZVbwGXlJ80Y5Umx799unXvQ1F6AlEbVoKGTDgZBxgqWuSFPXAlZ8JT0I9cbAlxNy4osxnsYAP0jMvg-5N-qAnqA&usqp=CAc"
+                class="card-img-top" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">s25 ultra </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                    card's content.</p>
+                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">79999/-</a>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+<footer class="bg-light py-4">
+    <div class="container text-center">
+        <p>&copy; 2025 Samsung. All Rights Reserved.</p>
+        <div class="social-icons">
+            <a href="https://www.instagram.com/naf_eehh/" class="mx-3"><i class="bi bi-facebook" style="font-size: 30px; color: #007bff;"></i></a>
+            <a href="https://www.instagram.com/naf_eehh/" class="mx-3"><i class="bi bi-twitter-x" style="font-size: 30px; color: #007bff;"></i></a>
+            <a href="https://www.instagram.com/naf_eehh/" class="mx-3"><i class="bi bi-instagram" style="font-size: 30px; color: #007bff;"></i></a>
+        </div>
+    </div>
+</footer>
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
